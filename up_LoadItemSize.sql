@@ -18,7 +18,7 @@ GO
 --		(8) IS.TN 01-06-15	company independent stored procedure
 --		(9) IS.TN 05-08-15	field [Resort Bin] added
 
--- $Revision: 9 $
+-- $Revision: 10 $
 
 IF EXISTS( SELECT * FROM sys.procedures WHERE [name] = 'up_LoadItemSize' AND [type] = 'P' AND [schema_id] = SCHEMA_ID( 'sap'))
 	DROP PROCEDURE [sap].[up_LoadItemSize]
